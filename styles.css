@@ -1,0 +1,41 @@
+body{
+    padding: 3vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('https://i.pinimg.com/originals/45/fc/79/45fc7937eeb776acff173c30a412e4e3.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;    
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: auto;
+    width: 150vh;
+    padding: 1vh 1vh 1vh 1vh;
+
+    /* border:1px solid cornflowerblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 5px;
+}
+
+.card{
+    border:2px solid rgb(217, 227, 152);
+    border-radius: 5px;
+    height: 28vh;
+    width: 22vh;
+    background-size: cover;
+    background-position: center;
+}
