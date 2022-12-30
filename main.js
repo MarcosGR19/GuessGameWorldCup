@@ -84,7 +84,8 @@ const showCards = (n) => {
         cardContainer.style.backgroundImage = `url('${card.img}')`;
 
         //Append to father container
-        const fatherContainer = document.querySelector('.container');
+        const fatherContainer = document.querySelector('.card-container');
+        fatherContainer.style.display="flex";
         fatherContainer.appendChild(cardContainer);
     }
 }

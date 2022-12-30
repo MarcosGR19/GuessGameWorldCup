@@ -1,28 +1,86 @@
+@font-face {
+    font-family: qatar2022arabic;
+    src: url("./sources/fonts/Qatar2022Arabic-Bold.ttf");
+}
+
 body{
-    padding: 3vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     background-image: url('https://i.pinimg.com/originals/45/fc/79/45fc7937eeb776acff173c30a412e4e3.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;    
 }
 
-.background{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.main{
+    padding: 3vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 }
 
-.container{
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-label{
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: 'qatar2022arabic';
+}
+
+.form-select{
+    height: 15%;
+    width: 40%;
+    text-align:center;
+
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: 'qatar2022arabic';
+    background-color: #333333;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.form-btn{
+    height: 15%;
+    width: 40%;
+
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: 'qatar2022arabic';
+    background-color: #333333;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.form-select:hover{
+    background-color: #707070;
+    cursor:pointer;
+}
+
+.form-btn:hover{
+    background-color: #707070;
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.card-container{
     height: auto;
     width: 150vh;
     padding: 1vh 1vh 1vh 1vh;
 
     /* border:1px solid cornflowerblue; */
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -38,4 +96,8 @@ body{
     width: 22vh;
     background-size: cover;
     background-position: center;
+}
+
+.card:hover{
+    cursor:pointer;
 }
