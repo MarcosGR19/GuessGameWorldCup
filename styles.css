@@ -100,4 +100,20 @@ body{
 
 .card:hover{
     cursor:pointer;
+    transform:scale(1.05);
+}
+
+.card-guessed:hover{
+    cursor:default;
+    transform:scale(1);
+}
+
+.win-div{
+    display:none;
+    background-image: url('https://cdn-ukwest.onetrust.com/logos/236f1ae3-e97b-4fdf-9cb6-0803d748da2f/5ebc1394-b1a3-4a42-88c6-20bb30cc3831/48d0f561-6f01-496b-b552-aebd8fb0cbf3/logo_(1).png');
+    background-attachment: initial;
+    height: 70vh;
+    width:100%;
+    background-size: 100% 100%;
+    margin-top: 5%;
 }
