@@ -102,7 +102,7 @@ const main = async () => {
             } 
 
             // Selection system
-            if(target.matches('.card-0')){
+            if(target.matches('.card-0') && selection[0].position !==0){
                 target.style.backgroundImage = `url('${cardsArr[0].img}')`;
                 selection[i] = {position:0, id:cardsArr[0].id};
                 // Check if is second pick
@@ -112,7 +112,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-1')){
+            } else if (target.matches('.card-1') && selection[0].position !==1){
                 target.style.backgroundImage = `url('${cardsArr[1].img}')`;
                 selection[i] = {position:1, id:cardsArr[1].id};
                 // Check if is second pick
@@ -122,7 +122,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-2')){
+            } else if (target.matches('.card-2') && selection[0].position !==2){
                 target.style.backgroundImage = `url('${cardsArr[2].img}')`;
                 selection[i] = {position:2, id:cardsArr[2].id};
                 // Check if is second pick
@@ -132,7 +132,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-3')){
+            } else if (target.matches('.card-3') && selection[0].position !==3){
                 target.style.backgroundImage = `url('${cardsArr[3].img}')`;
                 selection[i] = {position:3, id:cardsArr[3].id};
                 // Check if is second pick
@@ -142,7 +142,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-4')){
+            } else if (target.matches('.card-4') && selection[0].position !==4){
                 target.style.backgroundImage = `url('${cardsArr[4].img}')`;
                 selection[i] = {position:4, id:cardsArr[4].id};
                 // Check if is second pick
@@ -152,7 +152,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-5')){
+            } else if (target.matches('.card-5') && selection[0].position !==5){
                 target.style.backgroundImage = `url('${cardsArr[5].img}')`;
                 selection[i] = {position:5, id:cardsArr[5].id};
                 // Check if is second pick
@@ -162,7 +162,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-6')){
+            } else if (target.matches('.card-6') && selection[0].position !==6){
                 target.style.backgroundImage = `url('${cardsArr[6].img}')`;
                 selection[i] = {position:6, id:cardsArr[6].id};
                 // Check if is second pick
@@ -172,7 +172,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-7')){
+            } else if (target.matches('.card-7') && selection[0].position !==7){
                 target.style.backgroundImage = `url('${cardsArr[7].img}')`;
                 selection[i] = {position:7, id:cardsArr[7].id};
                 // Check if is second pick
@@ -182,7 +182,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-8')){
+            } else if (target.matches('.card-8') && selection[0].position !==8){
                 target.style.backgroundImage = `url('${cardsArr[8].img}')`;
                 selection[i] = {position:8, id:cardsArr[8].id};
                 // Check if is second pick
@@ -192,7 +192,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-9')){
+            } else if (target.matches('.card-9') && selection[0].position !==9){
                 target.style.backgroundImage = `url('${cardsArr[9].img}')`;
                 selection[i] = {position:9, id:cardsArr[9].id};
                 // Check if is second pick
@@ -202,7 +202,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-10')){
+            } else if (target.matches('.card-10') && selection[0].position !==10){
                 target.style.backgroundImage = `url('${cardsArr[10].img}')`;
                 selection[i] = {position:10, id:cardsArr[10].id};
                 // Check if is second pick
@@ -212,7 +212,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-11')){
+            } else if (target.matches('.card-11') && selection[0].position !==11){
                 target.style.backgroundImage = `url('${cardsArr[11].img}')`;
                 selection[i] = {position:11, id:cardsArr[11].id};
                 // Check if is second pick
@@ -222,7 +222,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-12')){
+            } else if (target.matches('.card-12') && selection[0].position !==12){
                 target.style.backgroundImage = `url('${cardsArr[12].img}')`;
                 selection[i] = {position:12, id:cardsArr[12].id};
                 // Check if is second pick
@@ -232,7 +232,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-13')){
+            } else if (target.matches('.card-13') && selection[0].position !==13){
                 target.style.backgroundImage = `url('${cardsArr[13].img}')`;
                 selection[i] = {position:13, id:cardsArr[13].id};
                 // Check if is second pick
@@ -242,7 +242,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-14')){
+            } else if (target.matches('.card-14') && selection[0].position !==14){
                 target.style.backgroundImage = `url('${cardsArr[14].img}')`;
                 selection[i] = {position:14, id:cardsArr[14].id};
                 // Check if is second pick
@@ -252,7 +252,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-15')){
+            } else if (target.matches('.card-15') && selection[0].position !==15){
                 target.style.backgroundImage = `url('${cardsArr[15].img}')`;
                 selection[i] = {position:15, id:cardsArr[15].id};
                 // Check if is second pick
@@ -262,7 +262,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-16')){
+            } else if (target.matches('.card-16') && selection[0].position !==16){
                 target.style.backgroundImage = `url('${cardsArr[16].img}')`;
                 selection[i] = {position:16, id:cardsArr[16].id};
                 // Check if is second pick
@@ -272,7 +272,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-17')){
+            } else if (target.matches('.card-17') && selection[0].position !==17){
                 target.style.backgroundImage = `url('${cardsArr[17].img}')`;
                 selection[i] = {position:17, id:cardsArr[17].id};
                 // Check if is second pick
@@ -282,7 +282,7 @@ const main = async () => {
                     //Reset selection
                     selection = [{position:-1, id:-1}, {position:-1, id:-1}];
                 }
-            } else if (target.matches('.card-18')){
+            } else if (target.matches('.card-18') && selection[0].position !==18){
                 target.style.backgroundImage = `url('${cardsArr[18].img}')`;
                 selection[i] = {position:18, id:cardsArr[18].id};
                 // Check if is second pick
